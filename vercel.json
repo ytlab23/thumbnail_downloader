@@ -1,12 +1,5 @@
 {
   "version": 2,
   "builds": [{ "src": "./index.js", "use": "@vercel/node" }],
-  "routes": [
-    { "src": "/static/(.*)", "dest": "/build/static/$1" },
-    { "src": "/favicon.ico", "dest": "/build/favicon.ico" },
-    { "src": "/manifest.json", "dest": "/build/manifest.json" },
-    { "src": "/robots.txt", "dest": "/build/robots.txt" },
-    { "src": "/download-image", "dest": "/index.js" }, 
-    { "src": "/(.*)", "dest": "/build/index.html" }
-  ]
+  "routes": [{ "src": "/(.*)", "dest": "/" }]
 }
