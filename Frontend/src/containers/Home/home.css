@@ -1,0 +1,32 @@
+/* @keyframes animateGradientBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.border-gradient {
+  border: 3px solid transparent;
+  background-image: linear-gradient(to right, #f56565, #fb923c, #805ad5);
+  background-size: 200% auto;
+  animation: animateGradientBorder 5s linear infinite;
+} */
+.custom-dropdown .ant-select-single {
+  height: 3rem !important;
+
+  border-radius: 0% !important;
+}
+.custom-dropdown .ant-select-selector {
+  border-radius: 0% !important;
+  background-color: #dc2626 !important;
+  border: 1px solid #dc2626 !important;
+}
+.custom-dropdown .ant-select-selection-item {
+  color: white !important;
+  font-size: 16px;
+}
+.custom-dropdown .ant-select .ant-select-arrow .anticon {
+  color: white !important;
+}
