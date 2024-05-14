@@ -175,11 +175,11 @@ const Home = ({
                 - Everything you need to know about our free YouTube thumbnail downloader
                 <br/>
                 <br/>
-                - <a href='#'>All the basics about YouTube thumbnails, such as specifications and how to upload
+                - <a href='#basics'>All the basics about YouTube thumbnails, such as specifications and how to upload
                 one</a>
                 <br/>
                 <br/>
-                - <a href='#'>The best practices for creating an exceptional YouTube thumbnail, with exampless</a>
+                - <a href='#thumbnails'>The best practices for creating an exceptional YouTube thumbnail, with exampless</a>
             </p>
             <h1
                 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}
@@ -337,7 +337,7 @@ const Home = ({
                 Therefore, there is no need for any conversion. You can upload it directly for your video, ideally
                 after making some changes to avoid any copyright issues, if the original thumbnail is not yours.
             </p>
-            <h1 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
+            <h1 id='basics' className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 YouTube Thumbnails - The basics
             </h1>
             <h2 className="text-lg lg:text-md font-medium mt-6 lg:mx-auto lg:max-w-3xl left">
@@ -501,7 +501,7 @@ const Home = ({
                     among the thousands of other videos.
                 </p>
             </ul>
-            <h1 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
+            <h1 id="thumbnails" className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 How to make great YouTube thumbnails
             </h1>
 
