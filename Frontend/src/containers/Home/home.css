@@ -30,3 +30,32 @@
 .custom-dropdown .ant-select .ant-select-arrow .anticon {
   color: white !important;
 }
+
+.left {
+  text-align: left;
+}
+
+.mt-16 {
+  margin-top: 64px
+}
+
+a {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.numerical_list {
+  all: initial;
+}
+
+ {
+  font-weight: 100;
+}
+
+iframe {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 90%;
+  max-width: 768px;
+  aspect-ratio: 16/9;
+}
