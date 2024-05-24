@@ -9,6 +9,14 @@ import {Helmet} from "react-helmet";
 import {saveAs} from "file-saver";
 import axios from "axios";
 import {TiArrowSortedUp} from "react-icons/ti";
+import img1 from '../../images/Free and customizable YouTube thumbnail templates.jpeg';
+import img2 from '../../images/How to create great YouTube thumbnails.png';
+import img3 from '../../images/Why YouTube tumbnail is so important.jpeg';
+import img4 from '../../images/YouTube thumbnail downloader.jpeg';
+import img5 from '../../images/YouTube thumbnail image view and download.jpeg';
+import img6 from '../../images/YouTube thumbnail images.jpeg';
+
+
 
 const Home = ({
                   getSearchResults, setSearchResults, searchResults, setErrorMessage, errorMessage,
@@ -83,7 +91,7 @@ const Home = ({
         className={`flex flex-col mt-10 w-full px-3 lg:px-0 h-full items-center justify-center text-center `}
     >
         <Helmet>
-            <title>Thumbnails</title>
+            <title>Download Any YouTube Thumbnail For Free - DownloadYouTubeThumbnail.org</title>
         </Helmet>
         <div className="flex !flex-row flex-col sm:flex-row items-center justify-center mt-12 mb-36 w-full">
             <div
@@ -175,11 +183,12 @@ const Home = ({
                 - Everything you need to know about our free YouTube thumbnail downloader
                 <br/>
                 <br/>
-                - <a href='#basics'>All the basics about YouTube thumbnails, such as specifications and how to upload
-                one</a>
+                - All the basics about YouTube thumbnails, such as specifications and how to upload
+                one <a href='#basics'>(click to skip to this section)</a>
                 <br/>
                 <br/>
-                - <a href='#thumbnails'>The best practices for creating an exceptional YouTube thumbnail, with exampless</a>
+                - The best practices for creating an exceptional YouTube thumbnail, with exampless <a
+                href='#thumbnails'>(click to skip to this section)</a>
             </p>
             <h1
                 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}
@@ -191,6 +200,7 @@ const Home = ({
             >
                 Why use a YouTube Thumbnail Downloader?
             </h2>
+            <img className='illustration' src={img5}/>
             <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                 A common question might be flashing across your minds: why download a thumbnail if we can design it
                 ourselves? Actually, it is not as simple as you might think. You need to have two things for that:
@@ -247,6 +257,7 @@ const Home = ({
             >
                 Features of our YouTube Thumbnail Downloader
             </h1>
+            <img className='illustration' src={img4}/>
             <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                 All tools have some features that set them apart from others. Our Free YouTube Thumbnail Downloader
                 also comes up with a unique set of cool features to stand out from the competition. Check out them:
@@ -340,6 +351,7 @@ const Home = ({
             <h1 id='basics' className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 YouTube Thumbnails - The basics
             </h1>
+            <img className='illustration' src={img2}/>
             <h2 className="text-lg lg:text-md font-medium mt-6 lg:mx-auto lg:max-w-3xl left">
                 <b>
                     What is a YouTube thumbnail?
@@ -425,6 +437,7 @@ const Home = ({
                 <h1 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                     Why are Thumbnails so Important?
                 </h1>
+                <img className='illustration' src={img6}/>
                 <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                     With the rising competition in the video marketing field, thumbnails are becoming more important
                     than ever before. Here's how an excellent video thumbnail can help your business:
@@ -504,6 +517,7 @@ const Home = ({
             <h1 id="thumbnails" className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 How to make great YouTube thumbnails
             </h1>
+            <img className='illustration' src={img3}/>
 
             <h2 className="text-lg lg:text-md font-medium mt-6 lg:mx-auto lg:max-w-3xl left">
                 <b>
@@ -645,6 +659,7 @@ const Home = ({
             <h1 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 4 Best Tools for YouTube Thumbnail Designing
             </h1>
+            <img className='illustration' src={img1}/>
             <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                 You may also consider using external tools and websites to help you craft a professional YouTube
                 thumbnail with ease. Here are some of the best tools to design an excellent thumbnail:
@@ -801,7 +816,7 @@ const Home = ({
             </button>
         </div>
 
-        <div className="h-12 bg-[#FF0000] w-full flex items-center justify-center">
+        <div className="h-12 bg-[black] w-full flex items-center justify-center">
             <p className="text-white">
                 &copy; 2024 downloadyoutubethumbnail.org. All rights reserved.
             </p>
