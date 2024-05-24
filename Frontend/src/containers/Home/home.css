@@ -59,3 +59,24 @@ iframe {
   max-width: 768px;
   aspect-ratio: 16/9;
 }
+
+h2 b {
+  font-size: 1.5rem;
+}
+
+.logo_container {
+  width: 200px;
+  height: 100px;
+  margin: auto 0;
+}
+
+.logo {
+  width: 200px;
+}
+
+.illustration {
+  margin: 0 auto;
+  margin-top: 16px;
+  width: 60%;
+  aspect-ratio: initial;
+}
