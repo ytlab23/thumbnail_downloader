@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Topbar from "../Topbar/Topbar";
 import { Outlet } from "react-router-dom";
 import { connect } from "react-redux";

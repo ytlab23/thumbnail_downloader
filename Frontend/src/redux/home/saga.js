@@ -4,7 +4,7 @@ import { setSearchResults, setErrorMessage } from "./homeState";
 
 function extractVideoId(url) {
   const regex =
-    /^(?:https?:\/\/)?(?:www\.)?(?:m\.)?(?:youtube(?:-nocookie)?\.com\/(?:[^\/\n\s]+\/\S+\/|(?:watch\?|v|e(?:mbed)?)\/|\S*?[?&]v=|live\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
+    /^(?:https?:\/\/)?(?:www\.)?(?:m\.)?(?:youtube(?:-nocookie)?\.com\/(?:[^/\n\s]+\/\S+\/|(?:watch\?|v|e(?:mbed)?)\/|\S*?[?&]v=|live\/|shorts\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
   // /^(?:https?:\/\/)?(?:www\.)?(?:m\.)?(?:youtube(?:-nocookie)?\.com\/(?:[^\/\n\s]+\/\S+\/|(?:watch\?|v|e(?:mbed)?)\/|\S*?[?&]v=|live\/)|youtu\.be\/)([a-zA-Z0-9_-]{11})/;
   const match = url.match(regex);
   return match ? match[1] : null;

@@ -7,7 +7,7 @@ const Topbar = () => {
             {/* Logo and Hamburger Menu */}
             <div className="flex justify-between w-full">
                 <div className="logo-text text-2xl sm:text-3xl font-bold mb-2 sm:mb-0 cursor-pointer">
-                    <img className='logo' src={logo}/>
+                    <img className='logo' src={logo} alt="Download YouTube Thumbnail"/>
                 </div>
             </div>
         </div>

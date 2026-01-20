@@ -27,7 +27,7 @@ const Home = ({
         setSearchQuery(event.target.value);
         // const youtubeUrlRegex =
         //   /^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(?:-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|live\/|v\/)?)([\w\-]+)(\S+)?$/;
-        const youtubeUrlRegex = /^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(?:-nocookie)?\.com|youtu.be))(\/(?:[\w\-]+\?v=|embed\/|live\/|v\/|shorts\/)?)([\w\-]+)(\S+)?$/;
+        const youtubeUrlRegex = /^((?:https?:)?\/\/)?((?:www|m)\.)?((?:youtube(?:-nocookie)?\.com|youtu.be))(\/(?:[\w-]+\?v=|embed\/|live\/|v\/|shorts\/)?)([\w-]+)(\S+)?$/;
 
         if (!youtubeUrlRegex.test(event.target.value) && !(event.target.value === "")) {
             setErrorMessage("Please enter a valid YouTube video URL.");
@@ -44,7 +44,7 @@ const Home = ({
         } else {
             setSearchResults([]);
         }
-    }, [searchQuery]);
+    }, [searchQuery, getSearchResults, setSearchResults]);
 
     const faqData = [{
         key: 1,
@@ -200,7 +200,7 @@ const Home = ({
             >
                 Why use a YouTube Thumbnail Downloader?
             </h2>
-            <img className='illustration' src={img5}/>
+            <img className='illustration' src={img5} alt="YouTube thumbnail view and download"/>
             <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                 A common question might be flashing across your minds: why download a thumbnail if we can design it
                 ourselves? Actually, it is not as simple as you might think. You need to have two things for that:
@@ -257,7 +257,7 @@ const Home = ({
             >
                 Features of our YouTube Thumbnail Downloader
             </h1>
-            <img className='illustration' src={img4}/>
+            <img className='illustration' src={img4} alt="YouTube thumbnail downloader"/>
             <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                 All tools have some features that set them apart from others. Our Free YouTube Thumbnail Downloader
                 also comes up with a unique set of cool features to stand out from the competition. Check out them:
@@ -351,7 +351,7 @@ const Home = ({
             <h1 id='basics' className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 YouTube Thumbnails - The basics
             </h1>
-            <img className='illustration' src={img2}/>
+            <img className='illustration' src={img2} alt="How to create great YouTube thumbnails"/>
             <h2 className="text-lg lg:text-md font-medium mt-6 lg:mx-auto lg:max-w-3xl left">
                 <b>
                     What is a YouTube thumbnail?
@@ -437,7 +437,7 @@ const Home = ({
                 <h1 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                     Why are Thumbnails so Important?
                 </h1>
-                <img className='illustration' src={img6}/>
+                <img className='illustration' src={img6} alt="YouTube thumbnail images"/>
                 <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                     With the rising competition in the video marketing field, thumbnails are becoming more important
                     than ever before. Here's how an excellent video thumbnail can help your business:
@@ -517,7 +517,7 @@ const Home = ({
             <h1 id="thumbnails" className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 How to make great YouTube thumbnails
             </h1>
-            <img className='illustration' src={img3}/>
+            <img className='illustration' src={img3} alt="Why YouTube thumbnail is so important"/>
 
             <h2 className="text-lg lg:text-md font-medium mt-6 lg:mx-auto lg:max-w-3xl left">
                 <b>
@@ -659,7 +659,7 @@ const Home = ({
             <h1 className={`text-3xl lg:text-5xl mb-16 mt-16 font-extrabold text-gray-800`}>
                 4 Best Tools for YouTube Thumbnail Designing
             </h1>
-            <img className='illustration' src={img1}/>
+            <img className='illustration' src={img1} alt="Free and customizable YouTube thumbnail templates"/>
             <p className="text-lg lg:text-md font-medium text-gray-500 mt-6 lg:mx-auto lg:max-w-3xl left">
                 You may also consider using external tools and websites to help you craft a professional YouTube
                 thumbnail with ease. Here are some of the best tools to design an excellent thumbnail:
