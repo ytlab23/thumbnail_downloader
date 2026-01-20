@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ecce1ac3.css",
+    "main.js": "/static/js/main.f9ad2fdc.js",
+    "static/media/YouTube thumbnail images.jpeg": "/static/media/YouTube thumbnail images.b01f3996e4a9f358d8b6.jpeg",
+    "static/media/YouTube thumbnail downloader.jpeg": "/static/media/YouTube thumbnail downloader.dfead7b9ecdb65afe836.jpeg",
+    "static/media/Free and customizable YouTube thumbnail templates.jpeg": "/static/media/Free and customizable YouTube thumbnail templates.416fb7d035a477592c03.jpeg",
+    "static/media/How to create great YouTube thumbnails.png": "/static/media/How to create great YouTube thumbnails.09ee7a3555f929b69dac.png",
+    "static/media/Why YouTube tumbnail is so important.jpeg": "/static/media/Why YouTube tumbnail is so important.561aaa461b846e13ae1f.jpeg",
+    "static/media/YouTube thumbnail image view and download.jpeg": "/static/media/YouTube thumbnail image view and download.f6366ee8b76a29f1c58b.jpeg",
+    "static/media/download YouTube Thumbnail.png": "/static/media/download YouTube Thumbnail.26d6b2c293b65cbc8c0e.png",
+    "index.html": "/index.html",
+    "main.ecce1ac3.css.map": "/static/css/main.ecce1ac3.css.map",
+    "main.f9ad2fdc.js.map": "/static/js/main.f9ad2fdc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ecce1ac3.css",
+    "static/js/main.f9ad2fdc.js"
+  ]
+}

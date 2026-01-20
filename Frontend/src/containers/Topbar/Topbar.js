@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../images/download YouTube Thumbnail 2.png'
+import logo from '../../images/download YouTube Thumbnail.png'
 const Topbar = () => {
     return (
         <div
